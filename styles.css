@@ -39,6 +39,7 @@ footer {
   padding: 2em;
   display: flex;
   flex-flow: column nowrap;
+  align-items: center;
 }
 
 .poem h1 {
@@ -53,13 +54,5 @@ footer {
   .main-nav ul {
     flex-flow: row;
     margin-left: 1em;
-  }
-
-  .poem {
-    align-items: center;
-  }
-
-  .poem p {
-    width: 330px;
   }
 }
